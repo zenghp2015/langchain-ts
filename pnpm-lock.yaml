@@ -1,12 +1,15 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  cohere-ai:
+    specifier: ^6.2.1
+    version: 6.2.1
   dotenv:
     specifier: ^16.0.3
     version: 16.0.3
   langchain:
     specifier: ^0.0.83
-    version: 0.0.83
+    version: 0.0.83(cohere-ai@6.2.1)
   serpapi:
     specifier: ^1.1.1
     version: 1.1.1
@@ -196,6 +199,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /cohere-ai@6.2.1:
+    resolution: {integrity: sha512-um6QaNPrsTZWIf7SIefr3C1Ed2M7HubkcaRZERBLsrvawN1O+ClrGcoEcvdYVBwxQcKwoPr+D3PrDXCfoFQNjQ==}
+    dev: false
+
   /combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
@@ -376,7 +383,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /langchain@0.0.83:
+  /langchain@0.0.83(cohere-ai@6.2.1):
     resolution: {integrity: sha512-XS5H7g2/JRIi70D3UjfYpYlnkl5Q0lnsU9wT3fHexPazopUr4yvfg8ocHi+IyAQUOKSoEuyQQxxgaPsh2iyyxg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -505,6 +512,7 @@ packages:
       '@anthropic-ai/sdk': 0.4.3
       ansi-styles: 5.2.0
       binary-extensions: 2.2.0
+      cohere-ai: 6.2.1
       expr-eval: 2.0.2
       flat: 5.0.2
       js-tiktoken: 1.0.6

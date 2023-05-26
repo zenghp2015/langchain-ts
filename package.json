@@ -16,6 +16,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "cohere-ai": "^6.2.1",
     "dotenv": "^16.0.3",
     "langchain": "^0.0.83",
     "serpapi": "^1.1.1"
