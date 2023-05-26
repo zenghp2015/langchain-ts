@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "langchain": "^0.0.83"
+    "langchain": "^0.0.83",
+    "serpapi": "^1.1.1"
   }
 }
